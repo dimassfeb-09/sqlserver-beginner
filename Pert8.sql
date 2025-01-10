@@ -9,11 +9,11 @@ CREATE TABLE products (
 );
 
 INSERT INTO products 
-VALUES	(101, 'Smartphone', 12), 
-		(102, 'Laptop', 15),
+VALUES	(101, 'Asus', 12), 
+		(102, 'Keyboard', 15),
 		(103, 'iPad', 8),
-		(104, 'Headphone', 20),
-		(105, 'Keyboard', 10);
+		(104, 'Lenovo', 20),
+		(105, 'iPhone', 10);
 
 CREATE TABLE sales (
     sale_id INT PRIMARY KEY IDENTITY(1,1), 
